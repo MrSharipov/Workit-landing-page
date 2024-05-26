@@ -61,3 +61,29 @@ img{
     height: auto;
 }
 
+/* HIDDEN */
+.visually-hidden{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border:0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+/* CONTAINER */
+.container{
+    width: 100%;
+    max-width: 1146px;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* MAIN-CONTENT */
+.main-content{
+    flex-grow: 1;
+}
